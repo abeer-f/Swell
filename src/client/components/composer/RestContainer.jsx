@@ -214,7 +214,7 @@ function RestContainer({
           testContent={testContent}
         />
       </div>
-      <div className="is-3rem-footer is-clickable">
+      <div className="is-3rem-footer is-clickable is-margin-top-auto">
         <NewRequestButton onClick={addNewRequest} />
       </div>
     </div>

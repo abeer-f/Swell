@@ -108,7 +108,6 @@ const GraphQLMethodAndEndpointEntryForm = ({
         className={`ml-2 mr-2 is-flex is-justify-content-center dropdown ${
           dropdownIsActive ? 'is-active' : ''
         }`}
-        style={{padding: '10px'}}
       >
         <div className="dropdown-trigger">
           <button

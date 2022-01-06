@@ -42,7 +42,6 @@ export interface NewRequestOpenAPIObject {
   params?: Record<string, unknown>;
   queries?: Record<string, unknown>;
 }
-
 export interface NewRequestResponseObject {
   id: number;
   graphQL: boolean;
@@ -66,7 +65,6 @@ export interface NewRequestResponseObject {
   error: string;
   openapi: boolean;
 }
-
 export interface NewRequestFields {
   protocol: Protocol;
   graphQL: boolean;

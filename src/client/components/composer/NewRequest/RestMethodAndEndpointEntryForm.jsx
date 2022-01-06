@@ -75,7 +75,6 @@ const RestMethodAndEndpointEntryForm = ({
         className={` is-flex is-justify-content-center dropdown ${
           dropdownIsActive ? 'is-active' : ''
         }`}
-        style={{padding: '10px'}}
       >
         <div className="dropdown-trigger">
           <button
