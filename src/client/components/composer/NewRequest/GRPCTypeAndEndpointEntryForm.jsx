@@ -34,8 +34,7 @@ const GRPCTypeAndEndpointEntryForm = ({
   const isDark = useSelector((state) => state.ui.isDark);
 
   return (
-    <div className={`ml-2 mr-2 is-flex is-justify-content-center `}
-    style={{padding: '10px'}}>
+    <div className={`ml-2 mr-2 is-flex is-justify-content-center `}>
       {/* button id is now stream for vanilla JS selector, this should change */}
       <button id="stream" className="no-border-please button is-grpc">
         <span>{grpcStreamLabel}</span>

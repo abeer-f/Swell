@@ -2,8 +2,7 @@ import React from 'react';
 
 const WebRTCSessionEntryForm = ({ warningMessage }) => {
   return (
-    <div className="is-flex is-justify-content-center"
-    style={{padding: '10px'}}>
+    <div className="is-flex is-justify-content-center">
       <div id="webRTButton" className="no-border-please button is-webrtc">
         <span>SDP</span>
       </div>
