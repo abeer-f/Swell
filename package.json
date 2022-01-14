@@ -55,7 +55,7 @@
       "main_process/main_testingController.js",
       "preload.js"
     ],
-    "nodeVersion": "12.14.1",
+    "nodeVersion": "16.13.1",
     "nsis": {
       "createDesktopShortcut": "always"
     },
@@ -99,8 +99,8 @@
   "license": "MIT",
   "homepage": "http://www.getswell.io",
   "engines": {
-    "node": ">=12.14.1",
-    "npm": ">=6.0.0"
+    "node": ">=16.13.1",
+    "npm": ">=8.1.2"
   },
   "dependencies": {
     "@babel/cli": "^7.10.5",
