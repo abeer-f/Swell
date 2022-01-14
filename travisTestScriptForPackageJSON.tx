@@ -1,0 +1,3 @@
+   replace as first script in package.json
+   
+    "test": "webpack --mode=production --config ./webpack.production.js && cross-env process.env.NODE_ENV=test process.env.TRAVIS_LOCAL_API=true mocha --exit",
